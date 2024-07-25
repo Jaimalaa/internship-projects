@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+</head>
+<style type="text/css">
+     :root {
+    --primary-color: #29a598;
+    --text-color: #394c4a;
+    --background-light: #ffffff;
+    --header-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 110%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: #394c4a;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.header-background {
+    background: linear-gradient(rgba(255, 254, 253, 0.0), rgba(255, 254, 253, 0.2)), 
+                url(https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg) center center fixed;
+              
+
+    background-size: cover;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Unica One', cursive;
+    font-size: 1.2rem;
+}
+
+.header-content img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.header-content h1, .header-content p {
+    color: white;
+    margin: 0.5rem 0;
+    font-family: 'Unica One', cursive; 
+      }
+    .contact{
+        color: yellow;
+    }
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+label[for=fname]
+{
+    font-size: 5px;
+}
+/* Add a background color and some padding around the form */
+/*.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;*/
+}
+.container{
+    background-color: white;
+  color: black;
+  font-size: 40px;
+}
+
+#portfolio {
+    background-color: white; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    max-width: 40%;
+    height: auto; 
+    border-radius: 50%; 
+}
+
+.project {
+    width: 400px;
+    height: 300px;
+   /* border: 1px solid #ccc;
+   /* margin: 10px;*/
+    display: inline-block;
+    line-height: 200px;
+}
+
+#contact {
+    background-color: #ffbc4b; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+.tour{
+  color: black;
+  
+  }
+  .col{
+    font-size: normal;
+  }
+
+
+</style>
+<body>
+	 <header class="header-background">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                 <li><a href="#contact">Resume</a></li>
+                  <li><a href="#contact">Projects</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <img src="C:\Users\DELL.WEB-JAIMALA\OneDrive\Desktop\future intern\pic.PNG" >
+            <h1>Hi, my name is Jai Mala</h1>
+            <p>Web Developer | Designer </p>
+          
+        </div>
+    </header>
+    
+
+    <br>
+   <div class="tour">
+  <center><h1> <b> About Me <b> </h1></center>
+</div>
+    <div class="container">
+      <div class="row">
+          <div class="col">
+            <div class="about"> Hello , I Am Jai Mala . student of department of software engineering department at Sindh Agriculture University tando Jam. I have completed my CIt( web development) course under the National Vocational and Technical Training Commission .
+             As a web developer and front-end specialist, I've crafted dynamic, user-centric websites, collaborating closely with clients to translate their visions into robust digital solutions. Notable projects include a travel agency site with intuitive interfaces and seamless booking functionalities, and an online food ordering system featuring responsive design and secure payment integration. Proficient in React and Vue.js, I prioritize aesthetics and usability in building interactive interfaces. My expertise spans frontend development, UI/UX design, and responsive web design, ensuring every project meets high standards of performance and functionality.</div>
+          </div>
+          
+      </div>
+    </div>
+    <br>
+    <br>
+
+     <section id="portfolio">
+            <h2>~ My Work ~</h2>
+            <br>
+            <div class="project" id="project1"> <img src="C:\Users\DELL.WEB-JAIMALA\OneDrive\Desktop\WhatsApp Image 2024-05-19 at 11.56.04 PM.jpeg">      </div>
+            <div class="project" id="project2"> <img src="C:\Users\DELL.WEB-JAIMALA\OneDrive\Desktop\1.PNG"> </div>
+            <div class="project" id="project3"> <img src="C:\Users\DELL.WEB-JAIMALA\OneDrive\Desktop\WhatsApp Image 2024-05-19 at 11.56.03 PM.jpeg">  </div>
+                   
+        </section>
+    <div class="container">
+  <div class="row">
+        
+    <div class="col">
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425289.99054860836!2d72.75643565580965!3d33.61625093388004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1713111752213!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="col">
+     <h1>
+        <b>Get in touch</b>
+      </h1>
+      <form> Name
+        <input type="text" name="username" placeholder="Enter your name">
+      </form>
+      <br>
+        <form> Email
+        <input type="text" name="username" placeholder="Enter a valid email address" width="px">
+      </form>
+      <br>
+       <form > How can we help you? <br> 
+       <textarea></textarea>
+       <br>
+       <button style="background-color: gray ;" onclick="">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="footer">
+      <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">Jai Mala</div>
+      <div class="text-center text-muted">
+        <p>&copy;  All rights reserved.<br>Designed By -<a href="https://wa.me//+923183288238">Jai Mala</a>
+</p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
+</html>
+
+</body>
+</html>
